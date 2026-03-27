@@ -1,0 +1,22 @@
+# ═══════════════════════════════════════════════
+#  PlagioScan – Plagiarism Checker
+#  Requirements File
+#  Install with: pip install -r requirements.txt
+# ═══════════════════════════════════════════════
+
+# Core framework
+streamlit>=1.32.0
+
+# ML / NLP
+scikit-learn>=1.4.0
+numpy>=1.26.0
+
+# Document reading
+python-docx>=1.1.0
+docx2txt>=0.8
+
+# PDF report generation
+fpdf2>=2.7.9
+
+# Optional – better text preprocessing
+nltk>=3.8.1
